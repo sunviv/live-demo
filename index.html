@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/loader/loader.css" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>烟台市自来水</title>
+    <script type="module" crossorigin src="/assets/index.3a403e75.js"></script>
+    <link rel="stylesheet" href="/assets/index.fced4e9c.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="loader-container">
+        <svg class="loader-svg">
+          <filter id="water-cohesion">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="8" />
+            <feColorMatrix
+              values="
+              1 0 0 0 0
+              0 1 0 0 0
+              0 0 1 0 0
+              0 0 0 40 -5
+            "
+            />
+          </filter>
+        </svg>
+
+        <!-- <h1 class="headline">烟台市自来水</h1> -->
+
+        <div class="liquid-loader">
+          <span class="water-drop" style="--delay: 01"></span>
+          <span class="water-drop" style="--delay: 02"></span>
+          <span class="water-drop" style="--delay: 03"></span>
+          <span class="water-drop" style="--delay: 04"></span>
+          <span class="water-drop" style="--delay: 05"></span>
+          <span class="water-drop" style="--delay: 06"></span>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
